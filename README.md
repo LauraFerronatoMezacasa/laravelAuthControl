@@ -90,7 +90,7 @@ Este projeto inclui um script de automação que utiliza o Selenium para simular
 
 ### Pré-requisitos
 
-**Antes de executar o script, você precisará ter o Selenium instalado. Execute o seguinte comando para instalar o Selenium via pip:**
+- **Antes de executar o script, você precisará ter o Selenium instalado. Execute o seguinte comando para instalar o Selenium via pip:**
     ```bash
     pip install selenium
 
