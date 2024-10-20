@@ -66,19 +66,32 @@ Antes de começar, você precisará ter instalado em sua máquina:
     ```bash
     php artisan key:generate
 
-7. **Execute as migrações para criar as tabelas no banco de dados:**
+7. **Instale as dependências de front-end:**
+    ```bash
+    npm install
+
+8. **Compile os assets:**
+- **Para desenvolvimento**:
+    ```bash
+    npm run dev
+
+- **Para produção**:
+    ```bash
+    npm run prod
+
+9. **Execute as migrações para criar as tabelas no banco de dados:**
     ```bash
     php artisan migrate
 
-8. **Popule o banco de dados com dados iniciais usando seeders:**
+10. **Popule o banco de dados com dados iniciais usando seeders:**
     ```bash
     php artisan db:seed
 
-9. **Inicie o servidor de desenvolvimento:**
+11. **Inicie o servidor de desenvolvimento:**
     ```bash
     php artisan serve
 
-10. **Agora é só acessar a aplicação:**
+12. **Agora é só acessar a aplicação:**
     ```bash
     http://localhost:8000 ou http://127.0.0.1:8000
 
