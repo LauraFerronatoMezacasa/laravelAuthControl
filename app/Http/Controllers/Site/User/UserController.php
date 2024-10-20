@@ -25,13 +25,13 @@ class UserController extends Controller
         $user = Auth::user();
 
         if (!Hash::check($request->current_password, $user->password)) {
-            return back()->withErrors(['current_password' => 'A senha atual está incorreta.']);
+            return back()->withErrors(['error' => 'A senha atual está incorreta.']);
         }
 
         $user->password = Hash::make($request->new_password);
         $user->save();
 
-        return redirect()->back()->with('status', 'Senha redefinida com sucesso!');
+        return redirect()->back()->with('success', 'Senha redefinida com sucesso!');
     }
 }
 
