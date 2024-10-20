@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+    background-color: #f0f4f7;
+}
+
+.home-blade {
+    overflow: hidden;
+    height: 95vh;
+    background: linear-gradient(to right, #176828, #40B93C);
+}
+
+.title {
+    font-style: italic;
+} 
+
+.navbar {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px 50px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0 20px;
+}
+
+.nav-link {
+    font-size: 18px !important; 
+}
+
+.nav-link:hover {
+    color: #40B93C !important;
+}
+
+.nav-link.active {
+    color: #40B93C !important;
+}
+
+.dropdown-item {
+    transition: background-color 0.2s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f4f7; 
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 2.5rem;
+}
+
+.btn-primary {
+    background-color: #40B93C;
+    border-color: #40B93C;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: #176828;
+    border-color: #176828;
+    transform: translateY(-2px);
+}
+
+.form-check-label {
+    font-size: 0.9rem;
+}
+
+img {
+    max-height: 100px;
+}
+
+.btn-link {
+    color: #40B93C;
+    transition: 0.2s ease;
+}
+
+.btn-link:hover {
+    color: #176828;
+}
+
+.table td {
+    height: 50px;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 5px;
+    }
+}
