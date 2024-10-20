@@ -31,6 +31,6 @@ def login_to_application(url, username, password):
 if __name__ == "__main__":
     url = 'http://localhost:8000/login'
     username = 'admin@example.com'
-    password = 'testando'
+    password = 'GYN^%IY(lNy&;Vt'
 
     login_to_application(url, username, password)
