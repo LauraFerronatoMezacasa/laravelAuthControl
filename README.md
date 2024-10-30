@@ -1,7 +1,10 @@
 # Laravel Auth Control 
 
 **Descrição do Projeto:**
-Este projeto consiste em uma aplicação desenvolvida em PHP/Laravel que oferece um sistema de gerenciamento de usuários e controle de permissões, permitindo o cadastro e manutenção de usuários com diferentes níveis de acesso.
+Este projeto consiste em uma aplicação desenvolvida em PHP/Laravel que oferece um sistema de gerenciamento de usuários e controle de permissões, permitindo o cadastro e manutenção de usuários com diferentes níveis de acesso, a partir de um usuário Admin.
+
+## Licença de Uso do Logo e Favicon
+O logo e o favicon deste projeto foram criados exclusivamente para este uso, utilizando ferramentas de inteligência artificial e Photoshop. Eles são parte integrante da identidade visual deste projeto e não devem ser utilizados para outros fins sem a devida autorização.
 
 ## Funcionalidades
 - Sistema de login com controle de permissões baseado no nível de acesso do usuário.
